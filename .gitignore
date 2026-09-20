@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.env
+/.superpowers/
+/data/*
+!/data/README.md
+/reports/*
+!/reports/README.md
+!/reports/verify_cleaning.py
+!/reports/build_cleaning_report.py

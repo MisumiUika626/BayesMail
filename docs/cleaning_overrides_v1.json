@@ -1,0 +1,89 @@
+{
+  "008/280": {
+    "action": "truncate_body_tail",
+    "marker_hex": "6177747230302e6a7067",
+    "reason": "复核：完整影评之后 awtr00.jpg 起为图片尾部，JFIF 偏移1008，保留此前文字。",
+    "raw_sha256": "cb7b2747a8edf25590f176f5e518f0328d986d73efb6d45f5cbe47a9f3ef7ce3"
+  },
+  "149/033": {
+    "action": "repair_subject_fold",
+    "reason": "复核：Subject encoded-word 被无缩进折行截断；相邻两行拼接后严格 base64/GB2312 解码为论坛通知，后续为 X-Priority 头。",
+    "raw_sha256": "ef4327c5a7501c1b6cb3baaa3384bc42d846b1930b62b3e0ab764fb8d7e402dd"
+  },
+  "211/231": {
+    "action": "subject_charset",
+    "charset": "euc-kr",
+    "reason": "复核：原主题声明 gb2312 但得到无意义中文；同字节 EUC-KR/CP949 严格解码均为 25배 빠른 초고속인터넷 - 파워콤（25倍快速的超高速互联网-POWERCOM），仅恢复该主题。",
+    "raw_sha256": "436e0cbc42d860a398d43907441415f4b2480a15577c604cb129cc9f96317029"
+  },
+  "161/281": {
+    "action": "quarantine",
+    "reason": "严重损坏退信，暂未确认可恢复正文边界；保留记录，隔离而非删除。",
+    "raw_sha256": "b60ab56c79fa4ab54b70492a68ad6969e9b9bcc438d73afc842e0d44c27e6938"
+  },
+  "001/202": {
+    "raw_sha256": "db8e62ce3559d0aed1f69985407890369ec2f496bddab3e3d81d1bcd6ce70862",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "047/018": {
+    "raw_sha256": "d64491772a873c444e8c71416ae87e76e462cc1ca8b1bca0620185e77b4a8bf5",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "049/092": {
+    "raw_sha256": "76dcfc2aa0578d787803f68d1db1dda43fa4a565edfa1b7bf8ab0fca812fe44e",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "049/246": {
+    "raw_sha256": "8e71900c55a6868e03ea0371d98ae147499f4b9c0a70b2af5a6a5f389dff07b4",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "051/103": {
+    "raw_sha256": "5f550070dd8d990e7f4532f4728fa18f682db3b9dbf556b1650f617de086832b",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "051/233": {
+    "raw_sha256": "69a3c1c0ec3e6b27c968390a7cec932a94cec34898e488fbd588935f1029a45c",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "085/115": {
+    "raw_sha256": "a5816e6f23a29ea7072277c86103951111bb34da629ba0bc4ad82c9a4dfb687f",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "099/000": {
+    "raw_sha256": "c5cf831dd1d2b78de26950b63e01f0efab6e41c47259bf4424263ac654ae156f",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "170/004": {
+    "raw_sha256": "0c010d29b7a1d7ad9f80d5361c230619de5ab0837fdf0a4312a21f10f9ecbf7f",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "172/101": {
+    "raw_sha256": "1f8b38e7c4d4d369a4942545ae11f42ef84dc4f9b40be823d93ac8400ac74c60",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "173/261": {
+    "raw_sha256": "4d2e064b9ecd7de54ed527b7e8a725004bd1715a44685ba818b1900dc448e92d",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "174/054": {
+    "raw_sha256": "8caaa90dca7ffda1028a41e08ae694016fb8a75c09d283c5a6bb45011c602ac5",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  },
+  "178/094": {
+    "raw_sha256": "eeb551bb33b554f50d15caffdc5fae64f6135a6e3b483da713a25d93ba601676",
+    "action": "force_html",
+    "reason": "复核确认：营销正文中的遗留 br 换行标签或服务器错误页面末尾 P 标签，缺少成对标签；仅对本原文启用HTML提取，不推广到普通尖括号文本。"
+  }
+}
