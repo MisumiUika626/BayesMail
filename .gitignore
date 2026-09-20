@@ -8,6 +8,7 @@ dist/
 .ipynb_checkpoints/
 .env
 /.superpowers/
+/.worktrees/
 /data/*
 !/data/README.md
 /reports/*
